@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Right Half */}
-        <div className="flex items-center justify-center w-1/2 relative px-[9rem]">
+        <div className="flex items-center justify-center w-1/2 relative px-[6rem] xxl:px-[9rem] ">
           <img
             src={bottle3}
             alt="Bottle"
@@ -40,22 +40,22 @@ const Hero = () => {
           <img
             src={ice1}
             alt=""
-            className="absolute bottom-[9rem] left-0 z-0"
+            className="absolute  bottom-[6rem] xxl:bottom-[9rem] left-0 z-0 w-[40%] xxl:w-[100%]"
           />
           <img
             src={ice2}
             alt=""
-            className="absolute bottom-[9rem] left-[12rem] z-20"
+            className="absolute bottom-[5rem] xxl:bottom-[9rem] left-[9rem] xxl:left-[12rem] z-20 w-[20%] xxl:w-[100%]"
           />
           <img
             src={ice3}
             alt=""
-            className="absolute bottom-[9rem] right-[12rem] z-20"
+            className="absolute bottom-[5rem] xxl:bottom-[9rem] right-[8rem] sxxl:right-[12rsem] z-20 w-[20%] xxl:w-[100%]"
           />
           <img
             src={ice4}
             alt=""
-            className="absolute bottom-[9rem] right-0 z-0"
+            className="absolute bottom-[6rem] xxl:bottom-[9rem] right-0 z-0 w-[40%] xxl:w-[100%]"
           />
         </div>
       </div>
