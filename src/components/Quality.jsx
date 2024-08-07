@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPhone } from "react-icons/fa";
 import waterBottle from "../assets/waterBottle.png";
 
@@ -8,7 +7,7 @@ const Quality = () => {
       <div className="w-[50%] flex justify-center">
         <img src={waterBottle} alt="" />
       </div>
-      <div className="w-[50%] flex flex-col gap-6">
+      <div className="w-[50%] flex flex-col gap-10">
         <div className="flex flex-col gap-6 px-10">
           <button className="bg-white w-[12rem] p-3 rounded-full font-montserrat font-semibold">
             ABOUT US
