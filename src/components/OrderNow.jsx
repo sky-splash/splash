@@ -6,7 +6,7 @@ const OrderNow = () => {
     <div className="px-[6rem] my-6">
       <div
         style={{ backgroundImage: `url(${slider})` }}
-        className="flex rounded-lg bg-cover bg-center">
+        className="flex rounded-xl bg-cover bg-center">
         <div className="w-[50%] flex  flex-col justify-center items-center gap-4">
           <h1 className="font-montserrat text-4xl">You Order</h1>
           <h1 className="font-montserrat text-4xl">We Deliver</h1>
