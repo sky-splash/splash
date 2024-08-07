@@ -1,12 +1,15 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import Services from "../components/Services.jsx";
+import Quality from "../components/Quality.jsx";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <div>This is Hero section</div>
+      <Services />
+      <Quality />
     </div>
   );
 };
