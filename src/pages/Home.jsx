@@ -4,6 +4,8 @@ import Services from "../components/Services";
 import Quality from "../components/Quality.jsx";
 import OrderNow from "../components/OrderNow.jsx";
 import Features from "../components/Features.jsx";
+import Testimonials from "../components/Testimonial.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Quality />
       <OrderNow />
       <Features />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };
