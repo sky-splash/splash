@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className=" mt-20">
+    <div className="mt-20">
       <div className="  overflow-hidden leading-none">
         <svg
           className=" w-[120%] h-[120px] text-blue-950"
@@ -30,11 +30,11 @@ const Footer = () => {
       </div>
 
       {/* Footer Content */}
-      <footer className="bg-blue-950 text-white pt-32 pb-10 relative z-10">
-        <div className="container mx-auto px-[12rem]">
-          <div className="flex justify-between flex-wrap gap-8">
+      <footer className="bg-blue-950 text-white pt-20 pb-10 relative z-10">
+        <div className="container mx-auto px-6 sm:px-12 lg:px-20">
+          <div className="flex flex-col lg:flex-row justify-between flex-wrap gap-8">
             {/* Contact Section */}
-            <div>
+            <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
               <p className="opacity-75 mb-4">123 Water Street, City, Country</p>
               <p className="opacity-75 mb-4">Email: support@waterservice.com</p>
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
 
             {/* Quick Links */}
-            <div>
+            <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
               <ul>
                 <li className="mb-2">
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
 
             {/* Social Media Section */}
-            <div>
+            <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
               <div className="flex gap-4">
                 <a href="#" className="text-white hover:text-gray-400">
@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
 
             {/* Newsletter Section */}
-            <div>
+            <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Newsletter</h3>
               <p className="opacity-75 mb-4">
                 Subscribe to our newsletter to receive the latest updates and
