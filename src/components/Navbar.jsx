@@ -1,10 +1,19 @@
 import { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
 import { FaPhone, FaBars, FaTimes } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate=useNavigate();
+  const contactHandler=()=>{
+    navigate('/contact-us')
+  }
+  const blogHandler=()=>{
+    navigate('/blogs')
+  }
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,8 +44,8 @@ const Navbar = () => {
           <li>Pages</li>
           <li>Services</li>
           <li>Projects</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
+          <li className="cursor-pointer" onClick={blogHandler}>Blog</li>
+          <li className="cursor-pointer" onClick={contactHandler}>Contact Us</li>
         </ul>
 
         {/* Phone Section */}
