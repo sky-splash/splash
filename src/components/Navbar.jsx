@@ -6,14 +6,13 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navigate=useNavigate();
-  const contactHandler=()=>{
-    navigate('/contact-us')
-  }
-  const blogHandler=()=>{
-    navigate('/blogs')
-  }
-
+  const navigate = useNavigate();
+  const contactHandler = () => {
+    navigate("/contact-us");
+  };
+  const blogHandler = () => {
+    navigate("/blogs");
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,7 +31,7 @@ const Navbar = () => {
   return (
     <div
       className={`fixed w-full top-0 left-0 z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-white shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-white/60 shadow-2xl" : "bg-transparent"
       }`}>
       <div className="flex justify-between items-center w-full px-4 py-2 lg:px-8 lg:py-4 font-montserrat font-semibold">
         {/* Logo */}
@@ -44,8 +43,12 @@ const Navbar = () => {
           <li>Pages</li>
           <li>Services</li>
           <li>Projects</li>
-          <li className="cursor-pointer" onClick={blogHandler}>Blog</li>
-          <li className="cursor-pointer" onClick={contactHandler}>Contact Us</li>
+          <li className="cursor-pointer" onClick={blogHandler}>
+            Blog
+          </li>
+          <li className="cursor-pointer" onClick={contactHandler}>
+            Contact Us
+          </li>
         </ul>
 
         {/* Phone Section */}
