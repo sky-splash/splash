@@ -36,9 +36,10 @@ const Footer = () => {
             {/* Contact Section */}
             <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-              <p className="opacity-75 mb-4">123 Water Street, City, Country</p>
-              <p className="opacity-75 mb-4">Email: support@waterservice.com</p>
-              <p className="opacity-75">Phone: +123 456 7890</p>
+              <p className="opacity-75 mb-4">Head Office : Civil Lines, Rampur, Uttar Pradesh</p>
+              <p className="opacity-75 mb-4">Work Office : Near Police Line, Rampur, Uttar Pradesh</p>
+              <p className="opacity-75 mb-4">Email: support@skyinternationals.in</p>
+              <p className="opacity-75">Phone: +91-9761154541</p>
             </div>
 
             {/* Quick Links */}
