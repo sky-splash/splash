@@ -35,9 +35,7 @@ const Features = () => {
                 <div>
                   <h1 className="font-bold text-lg">Maximum Purity</h1>
                   <p className="max-w-xs opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi reiciendis esse deserunt beatae officiis ab optio
-                    magni eaque consectetur nulla!
+                  At Splash, we are committed to delivering the highest level of purity in every bottle. Our water goes through an advanced purification process that removes all contaminants, ensuring you receive only the cleanest, safest drinking water. We prioritize your health and well-being by adhering to stringent quality standards, so you can trust every drop of Splash.
                   </p>
                 </div>
               </li>
@@ -48,9 +46,7 @@ const Features = () => {
                 <div>
                   <h1 className="font-bold text-lg">Chlorine Free</h1>
                   <p className="max-w-xs opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi reiciendis esse deserunt beatae officiis ab optio
-                    magni eaque consectetur nulla!
+                  We believe that your drinking water should be free from harmful chemicals, which is why Splash is 100% chlorine-free. Unlike tap water, which often contains chlorine, our water undergoes thorough purification to eliminate this and other unwanted substances, offering you a healthier, safer alternative.
                   </p>
                 </div>
               </li>
@@ -61,9 +57,7 @@ const Features = () => {
                 <div>
                   <h1 className="font-bold text-lg">% Step Filtration</h1>
                   <p className="max-w-xs opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi reiciendis esse deserunt beatae officiis ab optio
-                    magni eaque consectetur nulla!
+                  Our water is subjected to a comprehensive multi-step filtration process to ensure superior quality. This system is designed to effectively remove impurities while retaining essential minerals that are beneficial to your health. The result is crisp, refreshing, and pure drinking water that you can trust for everyday hydration.
                   </p>
                 </div>
               </li>
@@ -84,11 +78,9 @@ const Features = () => {
                 <div className="text-right">
                   {" "}
                   {/* text-right to align text to the right */}
-                  <h1 className="font-bold text-lg">Maximum Purity</h1>
+                  <h1 className="font-bold text-lg">Rich in Essential Minerals</h1>
                   <p className="max-w-xs opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi reiciendis esse deserunt beatae officiis ab optio
-                    magni eaque consectetur nulla!
+                  Splash water not only quenches your thirst but also replenishes your body with essential minerals like calcium and magnesium. Our carefully balanced mineral content ensures that every sip supports your overall health, making Splash not just refreshing, but beneficial for your body’s hydration and nourishment needs.
                   </p>
                 </div>
               </li>
@@ -99,11 +91,9 @@ const Features = () => {
                   <FaBottleWater className="text-blue-500" size={30} />
                 </div>
                 <div className="text-right">
-                  <h1 className="font-bold text-lg">Chlorine Free</h1>
+                  <h1 className="font-bold text-lg">Strict Quality Assurance</h1>
                   <p className="max-w-xs opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi reiciendis esse deserunt beatae officiis ab optio
-                    magni eaque consectetur nulla!
+                  At Splash, we take quality seriously. Every batch of water is rigorously tested in our state-of-the-art facilities to ensure it meets the highest standards of safety and purity. From sourcing to bottling, we follow stringent quality control protocols to deliver the finest packaged drinking water.
                   </p>
                 </div>
               </li>
@@ -112,11 +102,9 @@ const Features = () => {
                   <GiWaterRecycling className="text-blue-500" size={30} />
                 </div>
                 <div className="text-right">
-                  <h1 className="font-bold text-lg">% Step Filtration</h1>
+                  <h1 className="font-bold text-lg">Eco-Friendly Packaging</h1>
                   <p className="max-w-xs opacity-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi reiciendis esse deserunt beatae officiis ab optio
-                    magni eaque consectetur nulla!
+                  Our commitment to sustainability is reflected in Splash’s eco-friendly packaging. We use recyclable materials to reduce our environmental footprint, so you can enjoy our premium water with peace of mind, knowing you’re making a greener choice for the planet.
                   </p>
                 </div>
               </li>

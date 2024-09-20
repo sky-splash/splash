@@ -51,7 +51,7 @@ const Navbar = () => {
         {/* Phone Section */}
         <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
           <FaPhone className="text-xl lg:text-3xl" />
-          <h1 className="text-sm lg:text-lg">+99123456293</h1>
+          <h1 className="text-sm lg:text-lg">+91-9761154541</h1>
         </div>
 
         {/* Mobile Menu Toggle Button */}

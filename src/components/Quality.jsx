@@ -20,19 +20,13 @@ const Quality = () => {
             ABOUT US
           </button>
           <h2 className="font-montserrat text-3xl md:text-4xl">
-            We Provide Quality Water Delivery
+            We Provide Quality Water
           </h2>
           <p className="opacity-50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            perferendis molestiae reprehenderit veritatis officia perspiciatis.
-            Debitis consectetur provident laboriosam, labore repellat sit quam
-            officia est facilis et ipsa magni optio.
+            Welcome to Splash, where we provide pure, refreshing, and mineral-rich drinking water to keep you hydrated and healthy. Our water goes through a rigorous purification process, ensuring every drop is safe, clean, and enriched with essential minerals. We take pride in offering high-quality water that meets international safety standards, giving you a healthy and refreshing experience with every sip.
           </p>
           <p className="opacity-50 mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            excepturi dignissimos iure, quia minima fugiat. Libero ipsa eius
-            quod possimus qui rem perspiciatis nesciunt quaerat, mollitia
-            reprehenderit nisi velit blanditiis!
+          At Splash, we are committed to both your well-being and the environment. Our eco-friendly packaging ensures that you can enjoy premium mineral water while contributing to a more sustainable future. Whether you're at home, at work, or on the go, Splash delivers trusted hydration, every time.
           </p>
         </div>
         <div className="w-full h-[0.1rem] opacity-20 bg-black "></div>
@@ -44,7 +38,7 @@ const Quality = () => {
           </button>
           <div className="flex items-center space-x-4 md:space-x-6">
             <FaPhone className="text-2xl md:text-3xl" />
-            <h1 className="text-lg md:text-xl">+99123456293</h1>
+            <h1 className="text-lg md:text-xl">+91-9761154541</h1>
           </div>
         </div>
       </div>

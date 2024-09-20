@@ -1,5 +1,5 @@
 import bg from "../assets/hero-image.jpg";
-import bottle3 from "../assets/bottel3.png";
+import bottle3 from "../assets/Designer.png";
 import ice1 from "../assets/ice1.png";
 import ice2 from "../assets/ice2.png";
 import ice3 from "../assets/ice3.png";
