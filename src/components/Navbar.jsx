@@ -14,6 +14,20 @@ const Navbar = () => {
     navigate("/blogs");
   };
 
+  const newblogHandler =() => {
+    setIsMenuOpen(false);
+    navigate("/blogs");
+  };
+  const newcontactusHandler =() => {
+    setIsMenuOpen(false);
+    navigate("/contact-us");
+  };
+  const newhomeHandler =() => {
+    setIsMenuOpen(false);
+    navigate("/");
+  };
+  
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 2) {
@@ -39,7 +53,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 lg:space-x-10 ml-[-50rem]">
-          <li>Home</li>
+          <li className="cursor-pointer" onClick={newhomeHandler}>Home</li>
           {/* <li>Pages</li>
           <li>Services</li>
           <li>Projects</li> */}
@@ -79,12 +93,12 @@ const Navbar = () => {
           isMenuOpen ? "block" : "hidden"
         } md:hidden bg-white w-full shadow-lg`}>
         <ul className="flex flex-col items-center space-y-4 py-4">
-          <li onClick={() => setIsMenuOpen(false)}>Home</li>
+          <li onClick={newhomeHandler}>Home</li>
           {/* <li onClick={() => setIsMenuOpen(false)}>Pages</li>
           <li onClick={() => setIsMenuOpen(false)}>Services</li>
           <li onClick={() => setIsMenuOpen(false)}>Projects</li> */}
-          <li onClick={() => setIsMenuOpen(false)}>Blog</li>
-          <li onClick={() => setIsMenuOpen(false)}>Contact Us</li>
+          <li onClick={newblogHandler}>Blog</li>
+          <li onClick={newcontactusHandler}>Contact Us</li>
         </ul>
         <div className="flex justify-center items-center space-x-4 py-4">
           <FaPhone className="text-xl rotate-90" />
