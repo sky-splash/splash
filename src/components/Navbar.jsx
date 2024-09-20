@@ -31,18 +31,18 @@ const Navbar = () => {
   return (
     <div
       className={`fixed w-full top-0 left-0 z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-white/60 shadow-2xl" : "bg-transparent"
-      }`}>
+        isScrolled ? "bg-white shadow-2xl" : "bg-transparent"
+      } ${isMenuOpen ? "bg-white" : ""}`}>
       <div className="flex justify-between items-center w-full px-4 py-2 lg:px-8 lg:py-4 font-montserrat font-semibold">
         {/* Logo */}
         <img src={logo} alt="logo" className="h-12 lg:h-[5rem]" />
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 lg:space-x-10">
+        <ul className="hidden md:flex space-x-6 lg:space-x-10 ml-[-50rem]">
           <li>Home</li>
-          <li>Pages</li>
+          {/* <li>Pages</li>
           <li>Services</li>
-          <li>Projects</li>
+          <li>Projects</li> */}
           <li className="cursor-pointer" onClick={blogHandler}>
             Blog
           </li>
@@ -53,12 +53,12 @@ const Navbar = () => {
 
         {/* Phone Section */}
         <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
-          <FaPhone className="text-xl lg:text-3xl" />
+          <FaPhone className="text-xl lg:text-3xl rotate-90" />
           <h1 className="text-sm lg:text-lg">+91-9761154541</h1>
         </div>
 
         {/* Mobile Menu Toggle Button */}
-        <div className="md:hidden">
+        <div className="md:hidden ">
           {isMenuOpen ? (
             <FaTimes
               className="text-2xl cursor-pointer"
@@ -80,15 +80,15 @@ const Navbar = () => {
         } md:hidden bg-white w-full shadow-lg`}>
         <ul className="flex flex-col items-center space-y-4 py-4">
           <li onClick={() => setIsMenuOpen(false)}>Home</li>
-          <li onClick={() => setIsMenuOpen(false)}>Pages</li>
+          {/* <li onClick={() => setIsMenuOpen(false)}>Pages</li>
           <li onClick={() => setIsMenuOpen(false)}>Services</li>
-          <li onClick={() => setIsMenuOpen(false)}>Projects</li>
+          <li onClick={() => setIsMenuOpen(false)}>Projects</li> */}
           <li onClick={() => setIsMenuOpen(false)}>Blog</li>
           <li onClick={() => setIsMenuOpen(false)}>Contact Us</li>
         </ul>
         <div className="flex justify-center items-center space-x-4 py-4">
-          <FaPhone className="text-xl" />
-          <h1 className="text-sm">+99123456293</h1>
+          <FaPhone className="text-xl rotate-90" />
+          <h1 className="text-sm">+91-9761154541</h1>
         </div>
       </div>
     </div>

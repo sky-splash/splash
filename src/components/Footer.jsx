@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaFacebookF,
   FaTwitter,
@@ -36,9 +35,13 @@ const Footer = () => {
             {/* Contact Section */}
             <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-              <p className="opacity-75 mb-4">Head Office : Civil Lines, Rampur, Uttar Pradesh</p>
-              <p className="opacity-75 mb-4">Work Office : Near Police Line, Rampur, Uttar Pradesh</p>
-              <p className="opacity-75 mb-4">Email: support@skyinternationals.in</p>
+              <p className="opacity-75 mb-4">
+                Head Office : Civil Lines, Rampur, Uttar Pradesh
+              </p>
+              <p className="opacity-75 mb-4">
+                Work Office : Near Police Line, Rampur, Uttar Pradesh
+              </p>
+              <p className="opacity-75 mb-4">Email: support@skysplash.in</p>
               <p className="opacity-75">Phone: +91-9761154541</p>
             </div>
 
@@ -73,16 +76,32 @@ const Footer = () => {
             <div className="w-full sm:w-1/2 lg:w-auto">
               <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
               <div className="flex gap-4">
-                <a href="#" className="text-white hover:text-gray-400">
+                <a
+                  href="https://www.instagram.com/sky_splash_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-400">
                   <FaFacebookF size={24} />
                 </a>
-                <a href="#" className="text-white hover:text-gray-400">
+                <a
+                  href="https://www.instagram.com/sky_splash_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-400">
                   <FaTwitter size={24} />
                 </a>
-                <a href="#" className="text-white hover:text-gray-400">
+                <a
+                  href="https://www.instagram.com/sky_splash_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-400">
                   <FaInstagram size={24} />
                 </a>
-                <a href="#" className="text-white hover:text-gray-400">
+                <a
+                  href="https://www.instagram.com/sky_splash_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-gray-400">
                   <FaLinkedinIn size={24} />
                 </a>
               </div>

@@ -1,0 +1,15 @@
+@keyframes flash {
+    0%, 100% {
+      background-color: white;
+      color: #3b82f6; /* Blue color */
+    }
+    50% {
+      background-color: #3b82f6; /* Blue background */
+      color: white; /* White text */
+    }
+  }
+  
+  .animate-flash {
+    animation: flash 1.5s infinite ease-in-out;
+  }
+  

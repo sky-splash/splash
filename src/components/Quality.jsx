@@ -1,5 +1,5 @@
 import { FaPhone } from "react-icons/fa";
-import waterBottle from "../assets/waterBottle.png";
+import waterBottle from "../assets/bottle-.png";
 
 const Quality = () => {
   return (
@@ -9,24 +9,36 @@ const Quality = () => {
         <img
           src={waterBottle}
           alt="Water Bottle"
-          className="w-[80%] l lg:w-[300px] l" // Adjust the size for large screens
+          className="w-[5rem] l lg:w-[10rem] l h-[17rem] lg:h-[30rem]" // Adjust the size for large screens
         />
       </div>
 
       {/* Content Section */}
       <div className="w-full lg:w-[50%] flex flex-col gap-10">
         <div className="flex flex-col gap-6 px-4 md:px-10">
-          <button className="bg-white w-[10rem] md:w-[12rem] p-3 rounded-full font-montserrat font-semibold">
-            ABOUT US
-          </button>
-          <h2 className="font-montserrat text-3xl md:text-4xl">
+          <div className="w-full flex justify-center">
+            <button className="bg-white w-[10rem] md:w-[12rem] p-3 rounded-full font-montserrat font-semibold">
+              ABOUT US
+            </button>
+          </div>
+          <h2 className="font-montserrat text-3xl md:text-4xl text-center">
             We Provide Quality Water
           </h2>
-          <p className="opacity-50">
-            Welcome to Splash, where we provide pure, refreshing, and mineral-rich drinking water to keep you hydrated and healthy. Our water goes through a rigorous purification process, ensuring every drop is safe, clean, and enriched with essential minerals. We take pride in offering high-quality water that meets international safety standards, giving you a healthy and refreshing experience with every sip.
+          <p className="opacity-50 text-center md:text-start">
+            Welcome to Splash, where we provide pure, refreshing, and
+            mineral-rich drinking water to keep you hydrated and healthy. Our
+            water goes through a rigorous purification process, ensuring every
+            drop is safe, clean, and enriched with essential minerals. We take
+            pride in offering high-quality water that meets international safety
+            standards, giving you a healthy and refreshing experience with every
+            sip.
           </p>
-          <p className="opacity-50 mt-5">
-          At Splash, we are committed to both your well-being and the environment. Our eco-friendly packaging ensures that you can enjoy premium mineral water while contributing to a more sustainable future. Whether you're at home, at work, or on the go, Splash delivers trusted hydration, every time.
+          <p className="opacity-50 mt-5 text-center md:text-start">
+            At Splash, we are committed to both your well-being and the
+            environment. Our eco-friendly packaging ensures that you can enjoy
+            premium mineral water while contributing to a more sustainable
+            future. Whether you&apos;re at home, at work, or on the go, Splash
+            delivers trusted hydration, every time.
           </p>
         </div>
         <div className="w-full h-[0.1rem] opacity-20 bg-black "></div>

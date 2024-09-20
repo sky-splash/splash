@@ -1,23 +1,27 @@
 const servicesData = [
   {
-    name: "Delivery",
-    description: "Water Dispenser",
+    name: "₹ 6",
+    description: " Net Qty: 250 Ml ",
     image: "image1.jpg",
+    size: 5,
   },
   {
-    name: "Catering",
-    description: "Drinking Water",
+    name: "₹ 10",
+    description: "Net Qty : 500 Ml",
     image: "image2.jpg",
+    size: 6,
   },
   {
-    name: "Glacier",
-    description: "Cosmetic Dentistry",
+    name: "₹ 20",
+    description: "Net Qty : 1 Ltr",
     image: "image3.jpg",
+    size: 8,
   },
   {
-    name: "Water",
-    description: "water Dispenser",
+    name: "₹ 30",
+    description: "Net Qty : 2 Ltr",
     image: "image4.jpg",
+    size: 10,
   },
 ];
 

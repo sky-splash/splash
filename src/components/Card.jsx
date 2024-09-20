@@ -1,24 +1,28 @@
-import service1 from "../assets/service1.jpg";
-import service2 from "../assets/service2.jpg";
-import service3 from "../assets/service3.jpg";
-import service4 from "../assets/service4.jpg";
+import bottle from "../assets/bottle-wave.png";
 
-const images = [service1, service2, service3, service4];
-
-const Card = ({ service, index }) => {
+const Card = ({ service }) => {
+  console.log(service.size);
   return (
-    <div className="bg-white rounded-xl w-[20rem] h-[20rem] p-6 flex flex-col justify-around">
-      <div className="flex justify-between ">
+    <div className="bg-white rounded-xl w-[20rem] h-[25rem] p-6 flex flex-col justify-center gap-8 items-center shadow-xl">
+      <div
+        className="flex justify-center bg-[#ffffff] aspect-[1/1] rounded-full relative border-black  shadow-2xl"
+        style={{ width: `${service.size + 2}rem` }}>
+        {/* Empty div for the circle */}
         <img
-          src={images[index]}
-          alt={service.name}
-          className="rounded-[30rem] w-[10rem]"
+          src={bottle}
+          alt=""
+          className="absolute bottom-0 left-8"
+          style={{ width: `${service.size - 1}rem` }}
         />
-        <h2 className="font-bold">{index + 1}</h2>
       </div>
-      <div>
-        <h2 className="text-gray-500">{service.name}</h2>
-        <p className="font-montserrat text-[1.4rem]">{service.description}</p>
+
+      <div className="flex justify-center">
+        <div className="flex flex-col">
+          <h2 className="text-gray-500 text-[1.4rem] text-center">
+            {service.name}
+          </h2>
+          <p className="font-montserrat ">{service.description}</p>
+        </div>
       </div>
     </div>
   );

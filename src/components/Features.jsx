@@ -1,4 +1,4 @@
-import waterBottle from "../assets/waterBottle.png";
+import waterBottle from "../assets/bottle-wave.png";
 import { FaHandHoldingWater } from "react-icons/fa";
 import { FaBottleWater } from "react-icons/fa6";
 import { GiWaterRecycling } from "react-icons/gi";
@@ -11,7 +11,10 @@ const Features = () => {
         <div className="overflow-hidden">
           <div className="whitespace-nowrap animate-marquee">
             <h1 className="inline-block text-white text-[1.5rem] sm:text-[2rem] md:text-[3rem] font-bold opacity-50">
-              Healthy Water !! Pure Water !! Healthy Water !! Pure Water !!
+              Sky Splash !! Healthy Water !! Pure Water !!
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sky Splash !! Healthy Water !! Pure
+              Water
             </h1>
           </div>
         </div>
@@ -22,11 +25,11 @@ const Features = () => {
           <img
             src={waterBottle}
             alt="Water Bottle"
-            className="absolute z-10 h-[12rem] sm:h-[18rem] md:h-[22rem] lg:h-[26rem] right-0 sm:right-0 md:right-[21.3rem] lg:right[12rem] xl:right-[34.3rem]"
+            className="absolute z-10 w-[25rem]  hidden lg:block h-[12rem] sm:h-[18rem] md:h-[22rem] lg:h-[35rem]  sm:right-[4rem] md:right-[21.3rem] lg:right[12rem] xl:right-[31.3rem] top-[10rem]"
           />
 
           {/* Left Content */}
-          <div className="w-full lg:w-[50%] bg-white rounded-tr-[5rem] lg:rounded-tr-[10rem] p-6 md:p-8">
+          <div className="w-full lg:w-[50%] bg-white rounded-tr-[5rem] lg:rounded-tr-[10rem] p-6 md:p-8 h-[80rem] lg:h-[50rem]">
             <ul className="flex flex-col gap-6 w-[80%]">
               <li className="flex items-start gap-4">
                 <div className="bg-gray-200 rounded-full flex items-center justify-center h-12 w-12">
@@ -35,7 +38,13 @@ const Features = () => {
                 <div>
                   <h1 className="font-bold text-lg">Maximum Purity</h1>
                   <p className="max-w-xs opacity-50">
-                  At Splash, we are committed to delivering the highest level of purity in every bottle. Our water goes through an advanced purification process that removes all contaminants, ensuring you receive only the cleanest, safest drinking water. We prioritize your health and well-being by adhering to stringent quality standards, so you can trust every drop of Splash.
+                    At Splash, we are committed to delivering the highest level
+                    of purity in every bottle. Our water goes through an
+                    advanced purification process that removes all contaminants,
+                    ensuring you receive only the cleanest, safest drinking
+                    water. We prioritize your health and well-being by adhering
+                    to stringent quality standards, so you can trust every drop
+                    of Splash.
                   </p>
                 </div>
               </li>
@@ -46,7 +55,12 @@ const Features = () => {
                 <div>
                   <h1 className="font-bold text-lg">Chlorine Free</h1>
                   <p className="max-w-xs opacity-50">
-                  We believe that your drinking water should be free from harmful chemicals, which is why Splash is 100% chlorine-free. Unlike tap water, which often contains chlorine, our water undergoes thorough purification to eliminate this and other unwanted substances, offering you a healthier, safer alternative.
+                    We believe that your drinking water should be free from
+                    harmful chemicals, which is why Splash is 100%
+                    chlorine-free. Unlike tap water, which often contains
+                    chlorine, our water undergoes thorough purification to
+                    eliminate this and other unwanted substances, offering you a
+                    healthier, safer alternative.
                   </p>
                 </div>
               </li>
@@ -57,7 +71,12 @@ const Features = () => {
                 <div>
                   <h1 className="font-bold text-lg">% Step Filtration</h1>
                   <p className="max-w-xs opacity-50">
-                  Our water is subjected to a comprehensive multi-step filtration process to ensure superior quality. This system is designed to effectively remove impurities while retaining essential minerals that are beneficial to your health. The result is crisp, refreshing, and pure drinking water that you can trust for everyday hydration.
+                    Our water is subjected to a comprehensive multi-step
+                    filtration process to ensure superior quality. This system
+                    is designed to effectively remove impurities while retaining
+                    essential minerals that are beneficial to your health. The
+                    result is crisp, refreshing, and pure drinking water that
+                    you can trust for everyday hydration.
                   </p>
                 </div>
               </li>
@@ -65,7 +84,7 @@ const Features = () => {
           </div>
 
           {/* Right Content */}
-          <div className="w-full lg:w-[50%] bg-white rounded-tl-[5rem] lg:rounded-tl-[10rem] p-6 md:p-8 flex justify-end items-end">
+          <div className="w-full lg:w-[50%] bg-white rounded-tl-[5rem] lg:rounded-tl-[10rem] p-6 md:p-8 flex justify-end items-start h-[80rem] lg:h-[50rem]">
             <ul className="flex flex-col gap-6 w-[80%] ml-auto">
               {" "}
               {/* ml-auto moves the content to the right */}
@@ -78,9 +97,16 @@ const Features = () => {
                 <div className="text-right">
                   {" "}
                   {/* text-right to align text to the right */}
-                  <h1 className="font-bold text-lg">Rich in Essential Minerals</h1>
+                  <h1 className="font-bold text-lg">
+                    Rich in Essential Minerals
+                  </h1>
                   <p className="max-w-xs opacity-50">
-                  Splash water not only quenches your thirst but also replenishes your body with essential minerals like calcium and magnesium. Our carefully balanced mineral content ensures that every sip supports your overall health, making Splash not just refreshing, but beneficial for your body’s hydration and nourishment needs.
+                    Splash water not only quenches your thirst but also
+                    replenishes your body with essential minerals like calcium
+                    and magnesium. Our carefully balanced mineral content
+                    ensures that every sip supports your overall health, making
+                    Splash not just refreshing, but beneficial for your body’s
+                    hydration and nourishment needs.
                   </p>
                 </div>
               </li>
@@ -91,20 +117,31 @@ const Features = () => {
                   <FaBottleWater className="text-blue-500" size={30} />
                 </div>
                 <div className="text-right">
-                  <h1 className="font-bold text-lg">Strict Quality Assurance</h1>
+                  <h1 className="font-bold text-lg">
+                    Strict Quality Assurance
+                  </h1>
                   <p className="max-w-xs opacity-50">
-                  At Splash, we take quality seriously. Every batch of water is rigorously tested in our state-of-the-art facilities to ensure it meets the highest standards of safety and purity. From sourcing to bottling, we follow stringent quality control protocols to deliver the finest packaged drinking water.
+                    At Splash, we take quality seriously. Every batch of water
+                    is rigorously tested in our state-of-the-art facilities to
+                    ensure it meets the highest standards of safety and purity.
+                    From sourcing to bottling, we follow stringent quality
+                    control protocols to deliver the finest packaged drinking
+                    water.
                   </p>
                 </div>
               </li>
-              <li className="flex items-start gap-4 justify-end">
+              <li className="flex items-start gap-4 justify-end mt-10">
                 <div className="bg-gray-200 rounded-full flex items-center justify-center h-12 w-12">
                   <GiWaterRecycling className="text-blue-500" size={30} />
                 </div>
-                <div className="text-right">
+                <div className="text-right ">
                   <h1 className="font-bold text-lg">Eco-Friendly Packaging</h1>
                   <p className="max-w-xs opacity-50">
-                  Our commitment to sustainability is reflected in Splash’s eco-friendly packaging. We use recyclable materials to reduce our environmental footprint, so you can enjoy our premium water with peace of mind, knowing you’re making a greener choice for the planet.
+                    Our commitment to sustainability is reflected in Splash’s
+                    eco-friendly packaging. We use recyclable materials to
+                    reduce our environmental footprint, so you can enjoy our
+                    premium water with peace of mind, knowing you’re making a
+                    greener choice for the planet.
                   </p>
                 </div>
               </li>

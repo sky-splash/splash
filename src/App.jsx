@@ -7,14 +7,14 @@ import BlogDetail from "./pages/BlogDetails";
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:blogId" element={<BlogDetail />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
