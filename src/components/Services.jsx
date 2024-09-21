@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Services = () => {
   return (
-    <div className="bg-[#eaf1f6] flex flex-col items-center gap-6 pb-16">
+    <div className="bg-[#eaf1f6] flex flex-col items-center gap-6 pb-16 md:pt-[10rem] lg:pt-0">
       <button className="bg-white rounded-xl text-[#674eb2] px-4 py-1 mt-6">
         OUR PRODUCTS
       </button>

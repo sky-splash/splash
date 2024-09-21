@@ -20,7 +20,7 @@ const Home = () => {
       <Footer />
 
       {/* Bottom sticky div for mobile */}
-      <div className="sm:hidden fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full md:w-[18rem] p-3 rounded-t-sm bg-white shadow-lg text-center">
+      <div className="sm:hidden fixed bottom-0 left-1/2 transform -translate-x-1/2 w-full md:w-[18rem] p-3 rounded-t-sm bg-white shadow-lg text-center z-30">
         <h1 className="font-montserrat font-bold text-black mb-2">
           For Dealership
         </h1>

@@ -33,23 +33,25 @@ const Navbar = () => {
       className={`fixed w-full top-0 left-0 z-50 transition-colors duration-300 ${
         isScrolled ? "bg-white shadow-2xl" : "bg-transparent"
       } ${isMenuOpen ? "bg-white" : ""}`}>
-      <div className="flex justify-between items-center w-full px-4 py-2 lg:px-8 lg:py-4 font-montserrat font-semibold">
+      <div className="flex justify-between items-center w-full px-4 py-2 lg:px-8 lg:py-4 font-montserrat font-semibold  ">
         {/* Logo */}
-        <img src={logo} alt="logo" className="h-12 lg:h-[5rem]" />
+        <div className="flex justify-between items-center">
+          <img src={logo} alt="logo" className="h-12 lg:h-[5rem]" />
 
-        {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 lg:space-x-10 ml-[-50rem]">
-          <li>Home</li>
-          {/* <li>Pages</li>
-          <li>Services</li>
-          <li>Projects</li> */}
-          <li className="cursor-pointer" onClick={blogHandler}>
-            Blog
-          </li>
-          <li className="cursor-pointer" onClick={contactHandler}>
-            Contact Us
-          </li>
-        </ul>
+          {/* Desktop Menu */}
+          <ul className="hidden md:flex space-x-6 lg:space-x-10 ml-[2rem] ">
+            <li>Home</li>
+            {/* <li>Pages</li>
+  <li>Services</li>
+  <li>Projects</li> */}
+            <li className="cursor-pointer" onClick={blogHandler}>
+              Blog
+            </li>
+            <li className="cursor-pointer" onClick={contactHandler}>
+              Contact Uss
+            </li>
+          </ul>
+        </div>
 
         {/* Phone Section */}
         <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
