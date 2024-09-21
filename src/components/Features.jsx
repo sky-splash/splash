@@ -25,7 +25,7 @@ const Features = () => {
           <img
             src={waterBottle}
             alt="Water Bottle"
-            className="absolute z-10 w-[25rem]  hidden lg:block h-[12rem] sm:h-[18rem] md:h-[22rem] lg:h-[35rem]  sm:right-[4rem] md:right-[21.3rem] lg:right[12rem] xl:right-[31.3rem] top-[10rem]"
+            className="absolute z-10 w-[25rem]  hidden lg:block h-[12rem] sm:h-[18rem] md:h-[22rem] lg:h-[35rem]  sm:right-[4rem] md:right-[21.3rem] lg:right[12rem] xl:right-[33.3rem] top-[10rem]"
           />
 
           {/* Left Content */}

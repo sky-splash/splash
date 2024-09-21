@@ -57,7 +57,7 @@ const Quality = () => {
             Enquire Now
           </button>
           <div className="flex items-center space-x-4 md:space-x-6">
-            <FaPhone className="text-2xl md:text-3xl" />
+            <FaPhone className="text-2xl md:text-3xl rotate-90" />
             <h1 className="text-lg md:text-xl">+91-9761154541</h1>
           </div>
         </div>
