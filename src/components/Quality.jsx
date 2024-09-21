@@ -45,8 +45,16 @@ const Quality = () => {
 
         {/* Call to Action Section */}
         <div className="flex flex-col md:flex-row px-4 md:px-10 gap-6 lg:gap-x-5 items-center">
-          <button className="bg-blue-500 w-[10rem] md:w-[12rem] p-3 rounded-full font-montserrat font-semibold text-white">
-            Read More
+          <button
+            className="bg-blue-500 w-[10rem] md:w-[12rem] p-3 rounded-full font-montserrat font-semibold text-white"
+            onClick={() =>
+              window.open(
+                "https://api.whatsapp.com/send?phone=9761154541&text=I%20want%20to%20become%20a%20dealer.",
+                "_blank",
+                "noopener noreferrer"
+              )
+            }>
+            Enquire Now
           </button>
           <div className="flex items-center space-x-4 md:space-x-6">
             <FaPhone className="text-2xl md:text-3xl" />
