@@ -48,7 +48,7 @@ const Navbar = () => {
               Blog
             </li>
             <li className="cursor-pointer" onClick={contactHandler}>
-              Contact Uss
+              Contact Us
             </li>
           </ul>
         </div>
