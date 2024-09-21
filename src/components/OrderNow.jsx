@@ -16,7 +16,7 @@ const OrderNow = () => {
             We Deliver
           </h1> */}
           <a
-            href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER&text=I%20would%20like%20to%20place%20an%20order."
+            href="https://api.whatsapp.com/send?phone=9761154541&text=I%20want%20to%20become%20a%20dealer."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white w-[14rem] md:w-[18rem] p-3 rounded-full font-montserrat font-semibold text-blue-500 text-center animate-flash">
